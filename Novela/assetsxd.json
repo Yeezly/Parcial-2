@@ -1,0 +1,455 @@
+{
+    "inicio":{
+        "image": "./Novela/backgrounds/h001.png",
+        "text":  [
+            "El telefono negro",
+            "Una adaptacion de la antologia de cuentos de terror Fantasmas de Joe Hill",
+            "Presiona a o b para continuar",
+            " "
+        ],
+        "choices": [
+            {
+                "node":"acto1",
+                "text": "a) Siguiente"
+            },
+            {
+                "node": "acto1",
+                "text": "b) Siguiente"
+            }
+        ]
+    },
+    "acto1":{
+        "image": "./Novela/backgrounds/h001.png",
+        "text":  [
+            "Estas sentando en las escaleras del almacén de Poole, tomando un refresco de uva mientras esperas a tu padre. Al otro lado de la calle miras a un hombre gordo con la cabeza afeitada y brillante que",
+            "viste una camisa hawaiana, sus bolsas de papel con las compras están a punto de caerse al suelo. Te das cuenta que en el momento en el que abra la puerta trasera sus compras se caerán.",
+            ". "
+        ],
+        "choices": [
+            {
+                "node":"acto2",
+                "text": "a) Decides seguir observando para ver que sucede."
+            },
+            {
+                "node": "acto3",
+                "text": "b) Decides ir a ayudar a ese hombre."
+            }
+        ]
+    },
+    "acto2":{
+        "image": "./Novela/backgrounds/h001.png",
+        "text":  [
+            "La parte trasera esta llena de globos y en cuanto la puerta de abre salen todos disparados hacia la",
+            "cara del hombre gordo. La bolsa que lleva bajo el brazo izquierdo se estrella en el suelo y se rompe" ,
+            "haciendo que las naranjas rueden en todas las direcciones y sus gafas caen. El hombre comienza a" ,
+            "saltar de puntillas intentando tomar los globos, pero es demasiado tarde, estos ya se alejan en el" ,
+            "aire. Ese hombre maldice y se arrodilla palpando el suelo para buscar sus gafas, su suerte lo lleva a" ,
+            "aplastar un huevo con la mano. Tienes el impulso de ir a ayudarlo pero no estas seguro.",
+            "",
+            ". "
+        ],
+        "choices": [
+            {
+                "node":"acto3",
+                "text": "a) Ir."
+            },
+            {
+                "node": "acto4",
+                "text": "b) No ir."
+            }
+        ]
+    },
+    "acto3":{
+        "image": "./Novela/backgrounds/h001.png",
+        "text":  [
+            "Trotas al otro lado de la calle para ir a ayudar a ese hombre.",
+            "-¿Le ayudo sennor?",
+            "-¿Has visto mis gafas?- Te das cuenta que las gafas estan debajo de la defensa.",
+            " -Aqui estan, ¿para que son los globos?",
+            " -Soy payaso de medio tiempo- El hombre gordo esta sacando algo de una bolsa de papel",
+            "",
+            ""
+        ],
+        "choices": [
+            {
+                "node":"acto4",
+                "text": "a) Te acercas un poco por curiosidad."
+            },
+            {
+                "node": "acto4",
+                "text": "b) Te alejas, sigues algo indeciso."
+            }
+        ]
+    },
+    "acto4":{
+        "image": "./Novela/backgrounds/h001.png",
+        "text":  [
+            "El hombre se acerca a ti.",
+            "-Soy Al, ¿quieres ver algo gracioso?",
+            "Levantas tus ojos para ver a Al sosteniendo una lata de acero amarilla y negra, con dibujos de ",
+            "avispas. La agita con fuerza y sonries pensando en las serpentinas.",
+            "El payaso te rocia la cara con una espuma blanca, intentas girar la cabeza pero no eres lo ",
+            "suficientemente rapido para evitar que te alcance los ojos y la boca. Tus ojos se sienten como ",
+            "brasas encendidas ardiendo y te quema la garganta. Al te agarra del cuello y te empuja hacia el ",
+            "interior. Intentas liberarte mordiendo su carne gorda y fofa, aprietas hasta sentir el sabor a sangre ",
+            "pero aun asi eres atrapado.",
+            "",
+            ""
+        ],
+        "choices": [
+            {
+                "node":"acto5",
+                "text": "a) Siguiente."
+            },
+            {
+                "node": "acto5",
+                "text": "b) Siguiente."
+            }
+        ]
+    },
+    "acto5":{
+        "image": "./Novela/backgrounds/h001.png",
+        "text":  [
+            "Escuchas que una puerta se abre de golpe y sientes como alguien te arrastra escaleras abajo.",
+            "-Joder, estoy lleno de sangre, como si hubiera matado a alguien. Mira mi brazo- Dice y luego se rie ",
+            "con incredulidad-. Que tonteria. Si no puedes ver nada.",
+            "Despues de un silencio Al vuelve a hablar:",
+            "-Ya se que me tienes miedo, pero no voy a hacerte mas danno. No estes asustado, porque aqui no ",
+            "va a pasarte nada. Te doy mi palabra, Johnny.",
+            "Al escuchar tu nombre te quedas completamente quieto y dejas de temblar, ni si quiera sabias que ",
+            "estabas temblando. ",
+            "-¿Quieres un refresco? Espera, ¿has oido el telefono? Mierda, no es mas que el telefono de la ",
+            "cocina. De acuerdo, voy a ver quien es y enseguida vuelvo, ¿entonces si quieres el refresco?",
+            "",
+            ""
+        ],
+        "choices": [
+            {
+                "node":"acto6",
+                "text": "a) Aceptar el refresco."
+            },
+            {
+                "node": "acto7",
+                "text": "b) Rechazar el refresco."
+            }
+        ]
+    },
+    "acto6":{
+        "image": "./Novela/backgrounds/h001.png",
+        "text":  [
+            "Abres los ojos y te das cuenta que te quedaste dormido en suelo por quien sabe cuanto tiempo.",
+            "Deseas que esto no sea mas que un espejismo de tus ojos lastimados. A tu lado ves una botella de ",
+            "refresco de uva pero decides no abrirla, al otro lado hay un retrete sin asiento y a su derecha, en el ",
+            "centro de la habitacion, una caja o cabina negra pegada a la pared. Es un telefono. Grande, ",
+            "anticuado y negro, con el auricular colgando de una horquilla plateada. Sientes un atisbo de ",
+            "esperanza tan intenso que casi te hace llorar. Piensas que tal vez recuperaste la vista antes que los ",
+            "otros chicos y Al los mato sin que llegaran a ver el telefono. Encuentras el auricular y te lo llevas a ",
+            "la oreja esperando oir el tono de llamada.",
+            "-No funciona, lleva sin funcionar desde que era un ninno – Dice Al -. Cuelga.",
+            "Al toma la gaseosa y se la toma, te sientes tonto por no haberla tomado antes. Al te nota ",
+            "asustado.",
+            "-Cuando la puerta esta cerrada no se oye nada de lo que pasa en esta habitacion. Grita lo que ",
+            "quieras, no molestaras nadie.- Al habla mientras esta abriendo la puerta.",
+            "",
+            ""
+        ],
+        "choices": [
+            {
+                "node":"acto8",
+                "text": "a) Intentar escapar."
+            },
+            {
+                "node": "acto9",
+                "text": "b) Intentar gritar."
+            }
+        ]
+    },
+    "acto7":{
+        "image": "./Novela/backgrounds/h001.png",
+        "text":  [
+            "Abres los ojos y te das cuenta que te quedaste dormido en suelo por quien sabe cuanto tiempo.",
+            "Deseas que esto no sea mas que un espejismo de tus ojos lastimados. A tu lado hay un retrete sin asiento y a su derecha,",
+            "en el centro de la habitacion, una caja o cabina negra pegada a la pared. Es un telefono. Grande, ",
+            "anticuado y negro, con el auricular colgando de una horquilla plateada. Sientes un atisbo de ",
+            "esperanza tan intenso que casi te hace llorar. Piensas que tal vez recuperaste la vista antes que los ",
+            "otros chicos y Al los mato sin que llegaran a ver el telefono. Encuentras el auricular y te lo llevas a ",
+            "la oreja esperando oir el tono de llamada.",
+            "-No funciona, lleva sin funcionar desde que era un ninno – Dice Al -. Cuelga.",
+            "Al toma la gaseosa y se la toma, te sientes tonto por no haberla tomado antes. Al te nota ",
+            "asustado.",
+            "-Cuando la puerta esta cerrada no se oye nada de lo que pasa en esta habitacion. Grita lo que ",
+            "quieras, no molestaras nadie.- Al habla mientras esta abriendo la puerta.",
+            "",
+            ""
+        ],
+        "choices": [
+            {
+                "node":"acto8",
+                "text": "a) Intentar escapar."
+            },
+            {
+                "node": "acto9",
+                "text": "b) Intentar gritar."
+            }
+        ]
+    },
+    "acto8":{
+        "image": "./Novela/backgrounds/h001.png",
+        "text":  [
+            "Intentas escapar en el momento que Al tiene la puerta abierta. Corres lo mas rapido que puedes",
+            "pero tu falta de comida e hidratacion hace que te caigas con tu propio pie. Al se rie ",
+            "tranquilamente y cierra la puerta.",
+            "Gritas y empujas la puerta con todo tu cuerpo, pero no porque piensas que se abrira, sino porque ",
+            "piensas si golpeas el marco alguien podria oir escaleras arriba. Gritas hasta que te quedas ronco.",
+            "Piensas que es una buena idea explorar la habitacion, quiza encuentres algo con lo que puedas ",
+            "escapar.",
+            "",
+            ""
+        ],
+        "choices": [
+            {
+                "node":"acto10",
+                "text": "a) Explorar habitacion."
+            },
+            {
+                "node": "acto12",
+                "text": "b) Explorar la habitacion, obviamente quiero escapar."
+            }
+        ]
+    },
+    "acto9":{
+        "image": "./Novela/backgrounds/h001.png",
+        "text":  [
+            "Gritas y empujas la puerta con todo tu cuerpo, pero no porque piensas que se abrira, sino porque ",
+            "piensas si golpeas el marco alguien podria oir escaleras arriba. Gritas hasta que te quedas ronco.",
+            "Piensas que es una buena idea explorar la habitacion, quiza encuentres algo con lo que puedas ",
+            "escapar.",
+            "",
+            ""
+        ],
+        "choices": [
+            {
+                "node":"acto10",
+                "text": "a) Explorar habitacion."
+            },
+            {
+                "node": "acto12",
+                "text": "b) Explorar la habitacion, obviamente quiero escapar."
+            }
+        ]
+    },
+    "acto10":{
+        "image": "./Novela/backgrounds/h001.png",
+        "text":  [
+            "Hay dos ventanas de pequenno tamanno, acristaladas, cerca del techo fuer de tu alcance. Estan ",
+            "tapadas con rejillas oxidadas. Las estudias un tiempo y descubres que es una doble ventana ",
+            "situada al nivel del suelo y casi oculta por tupidos matorrales, piensas que si logras romperla ",
+            "alguien te oiria gritar. ",
+            "-Los otros habran pensando lo mismo,- piensas para ti mismo- y mira de que les sirvio.",
+            "",
+            ""
+        ],
+        "choices": [
+            {
+                "node":"acto11",
+                "text": "a) Explorar mas."
+            },
+            {
+                "node": "Final1",
+                "text": "b) Dejar de explorar."
+            }
+        ]
+    },
+    "acto11":{
+        "image": "./Novela/backgrounds/h001.png",
+        "text":  [
+            "Recorres de nuevo la habitacion y te encuentras una vez mas de pie frente al telefono,", 
+            "estudiandolo. Tu mirada sigue un delgado cable negro engrapado a la escayola. Te sorprendes a ti ",
+            "mismo tomando el auricular y llevandolo a tu oreja. ¿Por que alguien instalaria un telefono en el ",
+            "sotano?",
+            "",
+            ""
+        ],
+        "choices": [
+            {
+                "node":"Final1",
+                "text": "a) Siguiente."
+            },
+            {
+                "node": "Final1",
+                "text": "b) Siguiente."
+            }
+        ]
+    },
+    "acto12":{
+        "image": "./Novela/backgrounds/h001.png",
+        "text":  [
+            "Te obligas a ponerte de pie y recorres la habitacion buscando algo que te de ventaja. En uno de los ",
+            "rincones encuentras un trozo del suenno de cemento que se habia deshecho y convertido en ",
+            "fragmentos granulares del tamanno de palomitas de maiz, bajo los cuales se asoma una capa de ",
+            "arena. Decides guardar un punnado de estos granos en tu bolsillo.",
+            "Mas tarde el estomago te duele de hambre y tomas agua de la cisterna del retrete y permaneces ",
+            "un rato ahi.",
+            "Te despierta el sonido del telefono, te sientas y lo miras intentando decidir si el telefono habia ",
+            "sonado realmente cuando volvio a hacerlo, con un sonido penetrante y metalico. Te levantas y te ",
+            "acercas.",
+            "",
+            ""
+        ],
+        "choices": [
+            {
+                "node":"acto13",
+                "text": "a) Descuelgas el telefono."
+            },
+            {
+                "node": "acto13",
+                "text": "b) Descuelgas el telefono."
+            }
+        ]
+    },
+    "acto13":{
+        "image": "./Novela/backgrounds/h001.png",
+        "text":  [
+            "-¿Digame?- Oyes el siseo de la electricidad estatica.",
+            "-John,-era la voz de un ninno- escucha John, va a ser hoy.",
+            "-¿Quien es?",
+            "-No recuerdo mi nombre, es lo primero que se te olvida.",
+            "-¿Lo primero que se te olvida cuando?",
+            "-Ya sabes cuando.",
+            "-¿Que es lo que va a ser hoy?",
+            "-Llamo para decirte que tienes una manera de luchar contra el, la tienes en la mano. Arena, que ",
+            "sea mas pesado, ¿entiendes?",
+            "-Me encuentro muy debil y no se si podre enfrentarme a el en este estado.",
+            "-Se que podras.",
+            "",
+            ""
+        ],
+        "choices": [
+            {
+                "node":"Final2",
+                "text": "a) Quedarse despierto."
+            },
+            {
+                "node": "Final3",
+                "text": "b) Dormir."
+            }
+        ]
+    },
+    "Final1":{
+        "image": "./Novela/backgrounds/h001.png",
+        "text":  [
+            "La oscuridad llega envolviendote. No duermes en toda la noche esperando a que la puerta se ",
+            "abriera, que el hombre gordo entrara y la cerrara detras de el. Pero Al no viene. Tienes la mente ",
+            "en blanco, concentrado solo en el latido seco de tu pulso y el murmullo distante del viento detras ",
+            "de los ventanucos. ",
+            "El estomago te duele de hambre, en eso escuchas el ruido del cerrojo cuando lo descorren. El ",
+            "hombre gordo esta en el umbral. Ambos se miran desde una distancia de cuatro metros. Al lleva ",
+            "calzoncillos de rayas, una camisa interior blanca y un hacha en la mano izquierda.",
+            "Es hora. No tienes medio, lo que sientes es algo mas grande que el miedo, un terror narcotico que ",
+            "te inmoviliza por completo que te vuelve incapaz de pensar si quiera en moverte.",
+            "",
+            ""
+        ],
+        "choices": [
+            {
+                "node":"Creditos",
+                "text": "a) Siguiente."
+            },
+            {
+                "node": "Creditos",
+                "text": "b) Siguiente."
+            }
+        ]
+    },
+    "Final2":{
+        "image": "./Novela/backgrounds/h001.png",
+        "text":  [
+            "Escuchas el familiar sonido del cerrojo. Giras la cabeza pero no te levantas y te sorprendes al ver a ",
+            "alguien que no es Albert.",
+            "-Joder,-dijo el hermano del Albert- Sabia que tenia algo escondido en el sotano que no queria que ",
+            "Viera, pero ¡joder!",
+            "-Por favor ayudame… pide ayuda.- Dices mientras avanzas vacilante hacia el.",
+            "-No te preocupes. Se ha ido, tenia que ir a trabajar. Yo soy Frank. Ahora entiendo por que se puso ",
+            "histerico cuando lo llamaron del trabajo. Pero bueno ya estas a salvo.",
+            "Albert levanto el hacha y la clavo en craneo de su hermano con un crujido metalico, hueco y ",
+            "humedo. La fuerza del impacto le salpico la cara de sangre. Albert cayo de rodillas en el suelo e ",
+            "inspiro con fuerza y con los dientes apretados.",
+            "-¿Has visto eso?-dijo Albert-. ¿Has visto lo que me obligas a hacer?",
+            "",
+            ""
+        ],
+        "choices": [
+            {
+                "node":"Final22",
+                "text": "a) Siguiente."
+            },
+            {
+                "node": "Final22",
+                "text": "b) Siguiente."
+            }
+        ]
+    },
+    "Final22":{
+        "image": "./Novela/backgrounds/h001.png",
+        "text":  [
+            "Te acercas a el y le asestas un golpe en la nariz con el auricular. Recuerdas como desenroscaste el",
+            "disco del transmisor, rellenando el interior de arena y después lo volviste a enroscar. El hombre ",
+            "gordo profirio un grito ahogado y la sangre mano de sus fosas nasales y levanta una mano. Le ",
+            "golpeas de nuevo en la mano con el auricular aplastandole los dedos y finalmente lo golpeas en la ",
+            "boca cuando intenta atraparte. ",
+            "Rodeas al hombre gordo por el cuello con el cable y tiras con fuerza cruzando las muñecas. Al otro ",
+            "lado de la habitación el telefono negro empieza a sonar mientras Al se asfixiaba y tenia las pupilas ",
+            "tan dilatadas que el anillo dorado de su iris comenzaba a desaparecer. El telefono suena de nuevo y ",
+            "Al dirige la mirada hacia el y luego a tu cara.",
+            "-Es para ti- le anuncias.",
+            "",
+            ""
+        ],
+        "choices": [
+            {
+                "node":"Creditos",
+                "text": "a) Siguiente."
+            },
+            {
+                "node": "Creditos",
+                "text": "b) Siguiente."
+            }
+        ]
+    },
+    "Final3":{
+        "image": "./Novela/backgrounds/h001.png",
+        "text":  [
+            "Escuchas el familiar sonido del cerrojo. Giras la cabeza pero no te levantas y te sorprendes al ver a", 
+            "alguien que no es Albert.",
+            "-Joder,-dijo el hermano del Albert- Sabia que tenia algo escondido en el sotano que no queria que ",
+            "viera, pero ¡joder!",
+            "-Por favor ayudame… pide ayuda.- Dices mientras avanzas vacilante hacia el.",
+            "-No te preocupes. Se ha ido, tenia que ir a trabajar. Yo soy Frank. Ahora entiendo por que se puso ",
+            "histerico cuando lo llamaron del trabajo. Le preocupaba que yo pudiera encontrarte mientras estaba",
+            "fuera. Pero bueno ya estas a salvo.",
+            "",
+            ""
+        ],
+        "choices": [
+            {
+                "node":"Creditos",
+                "text": "a) Siguiente."
+            },
+            {
+                "node": "Creditos",
+                "text": "b) Siguiente."
+            }
+        ]
+    },
+    "Creditos":{
+        "image": "./Novela/backgrounds/h001.png",
+        "text":  [
+            "Esta historia fue adaptada por Yessica Arrez de la historia llamada el telefono negro incluida en", 
+            "el libro Fantasmas de Joe Hill",
+            "Presiona z para reiniciar",
+            "Presiona espacio para salir",
+            ""
+        ]
+    }
+
+} 
